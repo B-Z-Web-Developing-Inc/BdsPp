@@ -1,5 +1,5 @@
 const Server = require("./src/server");
-const server = new Server("localhost", 19132);
+const server = new Server("mc-beta.zwrld.tk", 19132);
 server.LoadPlugins();
 var Log = require("./src/logger");
 server.on('listening', function() {
